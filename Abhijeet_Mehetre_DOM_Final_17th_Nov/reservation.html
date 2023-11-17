@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>RESTAURANT RESERVATION</title>
+    <!-- <style>
+        body {
+            font-family: latha;
+            color: white;
+            background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0)), url(https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?cs=srgb&dl=pexels-pixabay-460537.jpg&fm=jpg&_gl=1*9moxrf*_ga*MjA0NzExMjkwOS4xNjY0MTAzNTQ5*_ga_8JE65Q40S6*MTY2NjExNjUwNS42LjEuMTY2NjExNjY4NC4wLjAuMA..)no-repeat;
+            background-size: cover;
+            margin-top: 1.49%;
+
+        }
+
+        .heading {
+            font-size: 3.2em;
+            margin-top: 20px;
+        }
+
+        .data {
+
+            padding: 20px;
+        }
+
+        button {
+            border-radius: 10px;
+            padding: 15px;
+
+            margin-left: 70px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: aqua;
+        }
+    </style> -->
+    <link rel="stylesheet" href="reservation.css">
+</head>
+
+<body>
+    <div align="left">
+        <h1 class="heading">Restaurant Reservation</h1>
+
+        <div class='data'>
+            <form id="xyz ">
+                <label for="name">Enter Name: </label>
+                <input type="text" id="name" placeholder="Enter Name" /><br />
+                <br>
+                <label for="date">Select Date: </label>
+                <input type="date" id="date" /><br />
+                <br>
+                <label for="people">How Many People?? </label>
+                <input type="number" id="people" placeholder="Enter Number Of People" /><br />
+                <br>
+                <label for="Message">Message/Special Requirements: </label>
+                <input type="text" id="Message" placeholder="Any Requirements?" /><br />
+                <br>
+                <label for="mobile">Enter Mobile number: </label>
+                <input type="text" id="mobile" placeholder="Enter Mobile Number" /><br />
+                <br>
+            </form>
+            <div>
+                <button onclick="validate()">Submit</button>
+                <p>
+                    <span id="result"></span>
+                </p>
+            </div>
+            <script src="reservation.js"></script>
+</body>
+
+</html>

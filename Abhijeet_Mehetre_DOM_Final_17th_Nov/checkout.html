@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Checkout</title>
+</head>
+
+<body style="background-image: url('https://thepointsguy.global.ssl.fastly.net/us/originals/2021/06/Delta-Sky-Club-Fort-Lauderdale-FLL-Zach-Griff-37.jpg?width=700&dpr=2&auto=webp'); background-repeat: no-repeat; margin-top: 3.0%;
+background-size: 100%; color:white;">
+    <center>
+        <h1>Checkout</h1>
+    </center>
+    <p>Enter Card details</p>
+    <hr />
+    Card No : <input type="text" maxlength="16" /> <br /><br />
+    Name on Card : <input type="text" /> <br /><br />
+    Expiry date : <select>
+        <option>2023</option>
+        <option>2024</option>
+        <option>2025</option>
+        <option>2026</option>
+    </select> <br /><br />
+    CVV No : <input type="text" maxlength="3" /> <br /><br />
+    Enter Amount : <input type="text" maxlength="5" /> <br /><br /><br>
+    <button onclick="validate()"><a href="placed.html">Submit</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+        type="reset" value="reset" /><br><br><br>
+
+    <h3 style="background-color: white; width:9%;"><a href="home.html">Go to home Page</a></h3>
+    <script>
+        function validate() {
+            alert('Order Placed Successfully');
+            result_text.innerHTML = "Order Placed";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('https://th.bing.com/th/id/R.1e99824c64aa00cee6cb157986bd1e18?rik=DB6WcSNLkKMvIg&riu=http%3a%2f%2fi.imgur.com%2fJp78I.jpg&ehk=eZ31fEu3hqfZjyUdP%2fgGhhubmelZFDt7VXrA99G2UmQ%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+
+    background-size: 100% 100%;
+
+}
+
+p {
+    margin-top: 1.5%;
+    background-color: transparent;
+    width: 30%;
+}
+
+h1 {
+    margin-top: 3%;
+    font-size: 2.8rem;
+}
